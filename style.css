@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    width: 100%;
+}
+.margin-bottom{
+    margin-bottom: 50px;
+}
+/*======header-area-start========*/
+#header-area{
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+}
+
+.logo img{
+    width: 158px;
+}
+.navbar-nav {
+    float: right;
+    margin-right: 20px;
+}
+.nav-item{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #f5bea0;
+}
+
+.btn, .header-button {
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+}
+/*=======header-area-end===========*/
+
+/*=======hero-area-start==========*/
+#hero-area{
+
+    background-color: #f0fff0;
+    width: 100%;
+    height: 576px;
+    position: relative;
+    z-index: 1;
+}
+.hero-text-area, .hero-img {
+    margin-top: 150px;
+}
+.hero-text-area h4{
+    color: #ea5b1e;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.hero-text-area h1{
+    color: #000;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Modak', cursive;
+}
+.hero-text-area span{
+    color:  #c4a113;
+}
+.hero-text-area p {
+    color: gray;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 8px;
+}
+.bn-get {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 34px;
+    border: none;
+    border-radius: 38px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.bn-get:hover{
+    color: #fff;
+    background: #faaf3a;
+}
+/*=======hero-area-end===========*/
+
+/*=======books-area-start=======*/
+#book-area{
+   margin : 56px 0px 56px 0px;
+   text-align: center;
+}
+.books-item img {
+    width: 119px;
+    padding-bottom: 10px;
+}
+.books-item h2 {
+    font-size: 22px;
+    font-weight: 900;
+    padding: 10px;
+    
+}
+.books-item h2:hover{
+    color: #eb6644;
+}
+.books-item {
+    padding: 20px;
+    border: none;
+    background: #eaf9f1;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 30px gray;
+}
+.books-item:hover{
+   background: #7c86a3;
+   color: #fff;
+}
+/*=======books-area-end========*/
+
+/*=======online-area start======*/
+#online-area{
+    margin : 90px 0px 80px 0px;
+    text-align: center;
+    font-family: 'Galada', cursive;
+}
+#online-area h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(34, 33, 33);
+}
+.card img {
+    width: 310px;
+    margin: 36px auto;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 87px darkred;
+    margin: 69px auto;
+    text-align: justify;
+}
+.icon-area i, .icon-area p{
+    float:left;
+    padding-right: 10px;
+}
+ 
+.icon-area p:hover{
+    color: #aa3436; 
+}
+.icon-area i:hover{
+    color: #aa3436;
+}
+/*=======online-area end=======*/
+
+/*=======testmonial-area start=====*/
+#testimo-area {
+    margin: 90px 167px 80px 193px;
+    text-align: justify;
+    font-family: 'Galada', cursive;
+}
+.test-text-area h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+/*=======testmonial-area end=======*/
+
+/*=======etra-area start========*/
+.content{
+    background: darkslategray;
+    color: #fff;
+    padding: 90px;
+    border-radius: 40px;
+}
+.content h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+.form-img img{
+    width: 400px;
+}
+/*=======etra-area end=========*/
+
+/*======footer-area start======*/
+#footer-area{
+    margin: 80px 0 0 auto;
+    background: #282531;
+    color: #fff;
+    text-align: justify;
+    font-family: 'Galada', cursive;
+}
+#footer-area:hover{
+    background: #fff;
+    color: #282531;
+}
+.footer-li, .footer-p{
+    padding: 26px;
+}
+ul li{
+    list-style: none;
+}
+.foot-p{
+    text-align: center;
+    font-size: 20px;
+}
+/*======footer-area end=======*/
